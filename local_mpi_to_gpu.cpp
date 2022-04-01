@@ -6,7 +6,9 @@ Written by Tom Papatheodore
 
 #include <stdio.h>
 #include <sched.h>
+#include <stdlib.h>
 #include <mpi.h>
+#include <cuda_runtime.h>
 
 int main(int argc, char *argv[])
 {
